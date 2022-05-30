@@ -18,12 +18,22 @@ If you would like to change the map you should download the code and go to: INDE
 
 If you open up the file you immediately the following code:
 
-{
-
-}
-
-
-
-### Socials
-
-<p align="left"> <a href="https://www.github.com/dendeef" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a></p>
+```
+const map = [
+    [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 1, 0, 0, 1, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 0, 1, 0, 1, 1, 1],
+    [1, 0, 1, 0, 1, 0, 0, 0, 1],
+    [1, 0, 1, 1, 1, 1, 1, 0, 1],
+    [1, 0, 1, 0, 1, 0, 0, 0, 1],
+    [1, 0, 0, 0, 0, 0, 0, 0, 1],
+    [1, 0, 1, 0, 1, 0, 1, 1, 1],
+    [1, 1, 1, 0, 1, 0, 0, 0, 1],
+    [1, 0, 1, 0, 1, 1, 1, 0, 1],
+    [1, 0, 1, 0, 1, 0, 0, 0, 1],
+    [1, 0, 0, 0, 1, 0, 1, 0, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1],
+  ];
+```
